@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="logowheat.png" sizes="16x16"/>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+<img src="logowheat.png" alt="agroinfo" align="left" width="80" hight="80">
+
+
+
+<h1>Agricultural Information & Services</h1>
+<hr>
+
+<h2>SERVICES</h2>
+
+<hr>
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="s1.jpg" alt="cultures" style="width:100%">
+     <a href="culture.html"> <center><h3>Different kind of cultures</h3></center></a>
+     
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="774.jpg" alt="seeds" style="width:100%">
+      <a href="seeds.html"><h3>Seeds</h3></a>
+      <p>A seed is an embryonic plant enclosed in a protective outer covering. The formation of the seed is part of the process of reproduction in seed plants, the spermatophytes, including the gymnosperm and angiosperm plants.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="aqua1.jpg" alt="aquaculture" style="width:100%">
+      <a href="https://en.wikipedia.org/wiki/Aquaculture"><h3>Aquaculture -Shrimp farming/fish production</h3></a>
+      <p>Aquaculture is breeding, raising, and harvesting fish, shellfish, and aquatic plants. Basically, it's farming in water. U.S. aquaculture is an environmentally responsible source of food and commercial products, helps to create healthier habitats, and is used to rebuild stocks of threatened or endangered species</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="seri1.jpg" alt="sericulture" style="width:100%">
+     <a href="https://en.wikipedia.org/wiki/Sericulture"> <h3>Sericulture-Silk production</h3></a>
+      <p>Sericulture is the process of cultivating silkworms and extracting silk from them. The caterpillars of the domestic silkmoth (also called 'Bombyx mori') are the most commonly used silkworm species in sericulture.</p>
+    </div>
+  </div>
+
+<!-- END GRID -->
+</div>
+<hr>
+
+
+
+<hr>
+
+<a target ="_blank" href="index.html">Back to Home</a>
+
+</body>
+</html>
